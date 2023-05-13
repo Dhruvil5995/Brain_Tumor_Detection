@@ -83,6 +83,7 @@ def train_model(x_train,y_train,x_test, y_test):
     model.add(Dropout(0.5))
     model.add(Dense(1))
     model.add(Activation('sigmoid'))
+    
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
     model.fit(x_train, y_train,
@@ -98,7 +99,7 @@ data, labels = processing(no_brain_tumor, yes_brain_tumor)
 x_train, y_train, x_test, y_test = train_test(data, labels)
 
 train = train_model(x_train,y_train,x_test, y_test)
-#train.save('function_model.h5')
+train.save('brain_model.h5')
 
 loss, accuracy = train.evaluate(x_test, y_test)
 print('Test Loss:', loss)
