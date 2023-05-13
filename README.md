@@ -16,6 +16,7 @@ The deep learning model used for this project consists of several convolutional 
 
 The trained model achieved an accuracy of 95% on the test set.
 
-(https://user-images.githubusercontent.com/64741151/123654587-81a37300-d82e-11eb-9842-331e5922bbb8.png)
+
+![2023-05-13 (2)](https://github.com/Dhruvil5995/Brain_Tumor_Detection/assets/64741151/aadbf659-b619-422d-956d-ce2257c3c6a1)
 
 
