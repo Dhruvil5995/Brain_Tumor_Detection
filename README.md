@@ -22,31 +22,39 @@ This project leverages a selection of key libraries and frameworks, enhancing it
 #### OpenCV (cv2): 
 Efficiently loads, manipulates, and preprocesses images. OpenCV significantly contributes to image quality enhancement for both training and prediction.
 
-#### PIL (Python Imaging Library): 
+#### PIL (Python Imaging Library):
+
 Streamlines image processing tasks, including resizing and format conversion. PIL ensures consistency in the dataset.
 
 #### NumPy: 
+
 Empowers numerical operations, array handling, and data manipulation. NumPy optimizes data representation and processing within the CNN model.
 
 #### scikit-learn: 
+
 Simplifies data splitting, aiding dataset division into training and testing subsets. scikit-learn streamlines data management and enhances model evaluation.
 
 #### TensorFlow and Keras: 
+
 Essential for building, training, and evaluating the Convolutional Neural Network. The combination of TensorFlow's computational power and Keras' user-friendly interface facilitates seamless model development.
 
 ## Skills Demonstrated
 This project encompasses a range of skills that span from data preprocessing to model training and evaluation:
 
 #### Image Preprocessing: 
+
 Proficient handling of images, including resizing, normalization, and conversion, to ensure uniformity and optimize input data for the CNN model.
 
 #### Convolutional Neural Networks (CNNs): 
+
 Implementation of a CNN architecture, showcasing the ability to design and structure deep learning models tailored for image classification tasks.
 
 #### Model Training and Evaluation: 
+
 Demonstration of the process of training a deep learning model, configuring hyperparameters, and evaluating performance using accuracy metrics and loss curves.
 
 #### Data Splitting and Handling: 
+
 Skillful utilization of libraries to effectively split and manage dataset subsets for training and testing, contributing to robust model assessment.
 
 ## Results
